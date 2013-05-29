@@ -461,7 +461,7 @@
     // Sidebar tree
     {
         "class": "sidebar_tree",
-        "row_padding": [8, 5],
+        "row_padding": [6, 1],
         "indent": 15,
         "indent_offset": 15,
         "indent_top_level": false
@@ -471,14 +471,14 @@
         "class": "tree_row",
         "layer0.texture": "Theme - Adobe Edge/Adobe Edge/sidebar-row-selected.png",
         "layer0.opacity": 0.0,
-        "layer0.inner_margin": [1, 1]
+        "layer0.inner_margin": [10, 0]
     },
     // Sidebar row selected
     {
         "class": "tree_row",
         "attributes": ["selected"],
         "layer0.texture": "Theme - Adobe Edge/Adobe Edge/sidebar-row-selected-with-arrow.png",
-        "layer0.inner_margin": [10, 0],
+        "layer0.inner_margin": [0, 0, 10, 0],
         "layer0.opacity": 1.0
  //       "layer1.opacity": 1.0,
 //        "layer1.texture": "Theme - Adobe Edge/Adobe Edge/sidebar-row-selected-with-arrow.png",
@@ -487,23 +487,27 @@
     // Sidebar heading
     {
         "class": "sidebar_heading",
-        "color": [255, 255, 255],
-        "font.bold": true,
+        "color": [128,129,130],
+        "font.face":"optima",
+        "font.bold": false,
         "shadow_color": [45, 47, 48],
-        "shadow_offset": [0, 1]
+        "shadow_offset": [1,1]
     },
     // Sidebar entry
     {
         "class": "sidebar_label",
-        "color": [255, 255, 255],
-        "shadow_color": [45, 47, 48],
-        "shadow_offset": [0, 1]
+        "font.face":"optima",
+        "font.size": 11,
+        "color": [155,156,157],
+        "shadow_color": [1, 2, 3 ],
+        "shadow_offset": [1, 1]
     },
     // Sidebar folder entry
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
-        "color": [255, 255, 255]
+        "shadow_color": [1, 2, 3],
+        "color": [180,181,182]
     },
     {
         "class": "sidebar_label",
@@ -515,7 +519,8 @@
         "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
         "settings": ["bold_folder_labels"],
         "color": [116, 116, 116],
-        "font.bold": true
+        "shadow_color": [1, 2, 3],
+        "font.bold": false
     },
     {
         "class": "sidebar_label",
@@ -527,7 +532,7 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "color": [255, 255, 255],
+        "color": [192,193,194],
         "shadow_color": [45, 47, 48],
         "shadow_offset": [0, 1]
     },
@@ -587,7 +592,7 @@
     // Sidebar group closed
     {
         "class": "disclosure_button_control",
-        "content_margin": [8, 8],
+        "content_margin": [8,8],
         "layer0.texture": "Theme - Adobe Edge/Adobe Edge/group-closed.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0
