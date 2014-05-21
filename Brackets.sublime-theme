@@ -480,15 +480,15 @@
         "layer0.texture": "Theme - Brackets/Brackets/sidebar-row-selected-with-arrow.png",
         "layer0.inner_margin": [0, 0, 10, 0],
         "layer0.opacity": 1.0
- //       "layer1.opacity": 1.0,
-//        "layer1.texture": "Theme - Brackets/Brackets/sidebar-row-selected-with-arrow.png",
-   //     "layer1.inner_margin": [8,0]
+       // "layer1.opacity": 1.0,
+       // "layer1.texture": "Theme - Brackets/Brackets/sidebar-row-selected-with-arrow.png",
+       // "layer1.inner_margin": [8,0]
     },
     // Sidebar heading
     {
         "class": "sidebar_heading",
         "color": [128,129,130],
-        "font.face":"optima",
+        "font.face":"Source Code Pro",
         "font.bold": false,
         "shadow_color": [45, 47, 48],
         "shadow_offset": [1,1]
@@ -496,7 +496,7 @@
     // Sidebar entry
     {
         "class": "sidebar_label",
-        "font.face":"optima",
+        "font.face":"Source Code Pro",
         "font.size": 11,
         "color": [155,156,157],
         "shadow_color": [1, 2, 3 ],
@@ -511,7 +511,7 @@
     },
     {
         "class": "sidebar_label",
-        "parents": [{"class": "tree_row", "attributes": ["expandable", "hover"]}],
+        "parents": [{"class": "tree_row", "attributes": ["hover"]}],
         "color": [235, 118, 9]
     },
     {
@@ -524,7 +524,7 @@
     },
     {
         "class": "sidebar_label",
-        "parents": [{"class": "tree_row", "attributes": ["expandable", "hover"]}],
+        "parents": [{"class": "tree_row", "attributes": ["hover"]}],
         "settings": ["bold_folder_labels"],
         "color": [81, 92, 103]
     },
